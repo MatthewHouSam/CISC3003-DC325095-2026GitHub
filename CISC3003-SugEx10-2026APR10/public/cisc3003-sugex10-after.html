@@ -186,7 +186,7 @@ function renderDetails(selectedId) {
     }
 
     details.innerHTML = `
-        <h4>${esc(selected.firstname + " " + selected.lastname)}</h4>
+        <h3 class="customer-detail-name">${esc(selected.firstname + " " + selected.lastname)}</h3>
         <p>
             Email: ${esc(selected.email)}<br>
             University: ${esc(selected.university)}<br>

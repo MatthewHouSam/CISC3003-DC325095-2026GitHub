@@ -87,7 +87,7 @@ if ($selectedCustomerId !== '') {
                         </div>
                         <div class="mdl-card__supporting-text">
                             <?php if ($selectedCustomer !== null): ?>
-                                <h4><?php echo e($selectedCustomer['firstname'] . ' ' . $selectedCustomer['lastname']); ?></h4>
+                                <h3 class="customer-detail-name"><?php echo e($selectedCustomer['firstname'] . ' ' . $selectedCustomer['lastname']); ?></h3>
                                 <p>Email: <?php echo e($selectedCustomer['email']); ?><br>
                                     University: <?php echo e($selectedCustomer['university']); ?><br>
                                     Address: <?php echo e(trim($selectedCustomer['address'] . ', ' . $selectedCustomer['city'] . ', ' . $selectedCustomer['country'])); ?><br>

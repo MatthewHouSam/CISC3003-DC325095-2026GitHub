@@ -23,6 +23,11 @@ header h1 span {
     font-weight: 400;
     line-height: 1.35;
 }
+.customer-detail-name {
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
 .avatar {
   width: 96px;
   height: 96px;  
