@@ -17,6 +17,12 @@ header h1 span {
 .profile span {
    font-size: 90%;   
 }
+.profile h2.profile-sidebar-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.35;
+}
 .avatar {
   width: 96px;
   height: 96px;  
