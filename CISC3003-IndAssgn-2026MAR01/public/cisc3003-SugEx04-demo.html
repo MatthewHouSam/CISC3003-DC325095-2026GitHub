@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Demo - My Personal Website</title>
+    <link rel="stylesheet" href="css/cisc3003-SugEx04-demo.css">
+</head>
+<body>
+    <!-- Banner Header Section -->
+    <header class="banner-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>TechStore</h1>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="cisc3003-sugEx03-home.html">My Website</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#brands">Brands</a></li>
+                </ul>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+        <div class="banner-content">
+            <h2>Welcome to TechStore</h2>
+            <p>Your One-Stop Shop for Latest Technology Products</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Feature Categories Section -->
+    <section id="categories" class="feature-categories">
+        <div class="container">
+            <h2 class="section-title">Feature Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="images/category-laptop.jpg" alt="Laptops">
+                    <div class="category-overlay">
+                        <h3>Laptops</h3>
+                        <p>High-performance laptops for work and gaming</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/category-phone.jpg" alt="Smartphones">
+                    <div class="category-overlay">
+                        <h3>Smartphones</h3>
+                        <p>Latest smartphones with cutting-edge features</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/category-tablet.jpg" alt="Tablets">
+                    <div class="category-overlay">
+                        <h3>Tablets</h3>
+                        <p>Versatile tablets for productivity and entertainment</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="images/category-accessories.jpg" alt="Accessories">
+                    <div class="category-overlay">
+                        <h3>Accessories</h3>
+                        <p>Essential accessories for your devices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Products Section -->
+    <section id="products" class="feature-products">
+        <div class="container">
+            <h2 class="section-title">Feature Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product1.jpg" alt="Product 1">
+                        <span class="product-badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Laptop Pro</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">(4.8)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$1,299.99</span>
+                            <span class="old-price">$1,599.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product2.jpg" alt="Product 2">
+                        <span class="product-badge">Hot</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smartphone Ultra</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">(4.6)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$899.99</span>
+                            <span class="old-price">$1,099.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product3.jpg" alt="Product 3">
+                        <span class="product-badge">Sale</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Tablet Plus</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">(4.9)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$599.99</span>
+                            <span class="old-price">$799.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product4.jpg" alt="Product 4">
+                    </div>
+                    <div class="product-info">
+                        <h3>Wireless Headphones</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">(4.5)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$199.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Products Section -->
+    <section class="latest-products">
+        <div class="container">
+            <h2 class="section-title">Latest Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product5.jpg" alt="Product 5">
+                        <span class="product-badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Watch Pro</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">(4.7)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$349.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product6.jpg" alt="Product 6">
+                    </div>
+                    <div class="product-info">
+                        <h3>Gaming Mouse</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">(4.4)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$79.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product7.jpg" alt="Product 7">
+                        <span class="product-badge">Hot</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>USB-C Hub</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-text">(4.8)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$49.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product8.jpg" alt="Product 8">
+                    </div>
+                    <div class="product-info">
+                        <h3>Portable Charger</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-text">(4.3)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$39.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Offer Section -->
+    <section id="offers" class="product-offer">
+        <div class="container">
+            <div class="offer-content">
+                <div class="offer-image">
+                    <img src="images/offer-product.jpg" alt="Special Offer">
+                </div>
+                <div class="offer-details">
+                    <h2>Exclusive Offer</h2>
+                    <h3>Premium Bundle Pack</h3>
+                    <p>Get the complete tech package with laptop, smartphone, and accessories at an unbeatable price!</p>
+                    <div class="offer-price">
+                        <span class="current-price">$2,499.99</span>
+                        <span class="old-price">$3,299.99</span>
+                    </div>
+                    <p class="offer-discount">Save $800 - Limited Time Only!</p>
+                    <button class="offer-button">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Customer Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="images/customer1.jpg" alt="Customer 1" class="customer-photo">
+                        <div class="customer-info">
+                            <h4>John Smith</h4>
+                            <div class="testimonial-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Excellent service and fast delivery! The product quality exceeded my expectations. Highly recommended!"</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="images/customer2.jpg" alt="Customer 2" class="customer-photo">
+                        <div class="customer-info">
+                            <h4>Sarah Johnson</h4>
+                            <div class="testimonial-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Best online shopping experience! Great prices and the customer support team is very helpful."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="images/customer3.jpg" alt="Customer 3" class="customer-photo">
+                        <div class="customer-info">
+                            <h4>Michael Chen</h4>
+                            <div class="testimonial-rating">★★★★☆</div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Quality products at affordable prices. The website is easy to navigate and checkout was smooth."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="images/profile-main.jpg" alt="Customer 4" class="customer-photo">
+                        <div class="customer-info">
+                            <h4>CHUNG HOU SAM</h4>
+                            <div class="testimonial-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Amazing deals and fast shipping! I've been a loyal customer for years. Keep up the great work!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Brands Section -->
+    <section id="brands" class="top-brands">
+        <div class="container">
+            <h2 class="section-title">Top Brands</h2>
+            <div class="brands-grid">
+                <div class="brand-logo">Apple</div>
+                <div class="brand-logo">Samsung</div>
+                <div class="brand-logo">Dell</div>
+                <div class="brand-logo">HP</div>
+                <div class="brand-logo">Lenovo</div>
+                <div class="brand-logo">Sony</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="ecommerce-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Download Our App -->
+                <div class="footer-column">
+                    <h3>Download Our App</h3>
+                    <p>Get the best shopping experience on mobile</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-button">App Store</a>
+                        <a href="#" class="app-button">Google Play</a>
+                    </div>
+                </div>
+                
+                <!-- Our Logo -->
+                <div class="footer-column">
+                    <h3>TechStore</h3>
+                    <p>Your trusted technology partner</p>
+                    <p class="footer-tagline">Quality Products • Best Prices • Fast Delivery</p>
+                </div>
+                
+                <!-- Useful Links -->
+                <div class="footer-column">
+                    <h3>Useful Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#offers">Offers</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#brands">Brands</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Follow Us -->
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <p>Stay connected with us on social media</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link facebook">Facebook</a>
+                        <a href="#" class="social-link twitter">Twitter</a>
+                        <a href="#" class="social-link instagram">Instagram</a>
+                        <a href="#" class="social-link youtube">Youtube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>CISC3003 Web Programming - 2026: DC325095 + CHUNG HOU SAM</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    navMenu.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
