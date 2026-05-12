@@ -1,0 +1,7 @@
+{
+  "name": "cisc3003/paper02b",
+  "description": "Scenario B contact form with PHPMailer",
+  "require": {
+    "phpmailer/phpmailer": "^7.0"
+  }
+}

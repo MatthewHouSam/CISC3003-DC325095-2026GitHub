@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7ff;
+    color: #111827;
+}
+
+.container {
+    max-width: 760px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 10px 20px rgba(17, 24, 39, 0.08);
+}
+
+form {
+    display: grid;
+    gap: 0.75rem;
+}
+
+input,
+textarea,
+button {
+    font: inherit;
+    padding: 0.65rem;
+}
+
+.flash {
+    border-radius: 10px;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.flash.success {
+    background: #dcfce7;
+    border: 1px solid #22c55e;
+}
+
+.flash.error {
+    background: #fee2e2;
+    border: 1px solid #ef4444;
+}
+
+pre {
+    white-space: pre-wrap;
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 0.8rem;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+footer {
+    text-align: center;
+    margin: 2rem 0 1rem;
+}

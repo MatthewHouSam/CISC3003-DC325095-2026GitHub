@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS cisc3003_paper02b CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE cisc3003_paper02b;
+
+CREATE TABLE IF NOT EXISTS contact_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sender_name VARCHAR(100) NOT NULL,
+    sender_email VARCHAR(150) NOT NULL,
+    subject VARCHAR(150) NOT NULL,
+    message TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

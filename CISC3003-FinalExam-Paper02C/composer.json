@@ -1,0 +1,7 @@
+{
+  "name": "cisc3003/paper02c",
+  "description": "Scenario C complete auth system",
+  "require": {
+    "phpmailer/phpmailer": "^7.0"
+  }
+}
